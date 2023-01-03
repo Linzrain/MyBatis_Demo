@@ -19,6 +19,7 @@
   </properties>
 
   <dependencies>
+    <!--junit用于单元测试-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -26,17 +27,27 @@
       <scope>test</scope>
     </dependency>
 
+    <!--mysql的驱动-->
     <dependency>
-      <groupId>mysql</groupId>
+        <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.30</version>
     </dependency>
 
+    <!--数据映射器xml-->
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.5.6</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
 
